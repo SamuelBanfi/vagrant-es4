@@ -24,10 +24,9 @@ if ($conn->connect_error) {
 // Data returned from database
 $result = $conn->query($query);
 
-echo "Connected to $servername";
-echo "DB '$database' selected";
-echo $query;
-echo $result->num_rows;
+echo "Connected to $servername <br>";
+echo "DB '$database' selected <br>";
+echo $query . "<br>";
 ?>
 
 <!DOCTYPE html>
